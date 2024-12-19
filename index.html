@@ -2,8 +2,158 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project</title>
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Oleo+Script:wght@400;700&display=swap" 
+    rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
   </head>
-  <body></body>
+  <body">
+    <!-- HEADER/TOP PAGES -->
+    <header href="#page-head">
+        <img src="assets/logo.png" alt="Logo">
+      <nav>
+          <a class="nav-link" href="#home">Home</a>
+          <a class="nav-link" href="#package">Our Package</a>
+          <a class="nav-link" href="#call">Call Us</a>
+      </nav>
+    </header>
+
+    <!-- MIDDLE PAGES -->
+    <main>
+        <section class="content-header" id="#page-head">
+            <h1 class="animate-left"> Your Trusted Travel Agent's</h1>
+            <p class="animate-right">Your happiness is our happiness</p>
+
+        <!-- HOME -->
+         <section class="main-container" id="#page-head">
+          <aside class="content">
+              <div class="slide-container">
+
+                <div class="testimonial">
+                <img src="assets/Gambar1.png" alt="Gambar 1" height="370" width="400"/>
+                <p><i>"Travelnya Amanah, Pelayanannya Memuaskan"</i></p>  
+                <div class="user">
+                <img src="assets/pp1.jpg" alt="photo profil" height="50" width="50">
+                  <div class="user-info">
+                    <strong>Noval Ramadhan</strong>
+                    <br/><i>
+                    Programmer PT.Sukacita</i>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                </aside>
+
+          <aside class="main-item">
+            <h3>Contact Us</h3>
+            <p>Sales will contact you 1x24 hours after we receive the data.</p>
+            <form>
+              <div class="input-group" style="margin-right: 20px;">
+                <label for="name">Your Name:</label>
+                <input type="text" placeholder="First and last name" id="name">
+              </div>
+
+              <div class="input-group" style="margin-right: 20px;">
+                <label for="email">Email Address:</label>
+                <input type="email" placeholder="example@gmail.com" id="email">
+              </div>
+              
+              <div class="input-group">
+                <label for="options">What are you interested in?</label>
+                <select id="options">
+                  <option value="">Select Option</option>
+                  <option value="indonesia">Indonesia</option>
+                  <option value="luar">Luar Negeri</option>
+                </select>
+              </div>
+
+              <button type="submit" id="#page-head">SEND</button>
+            </form>
+          </aside>
+          </section>
+          </section>
+         </section>
+
+         <section class="our-packages" id="package">
+          <h2 class="text-center" href="#package">Our Package</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <div class="text"> Bali
+                  <p>Travel dan wisata di Bali. Kunjungi cagar budaya dan kuliner yang menarik.</p>
+                </div>
+              </div>
+            </div>
+
+             <div class="col-md-4">
+              <div class="card">
+                <div class="text"> Japan
+                  <p>Travel dan wisata di Japan. Kunjungi cagar budaya dan kuliner yang menarik.</p>
+                </div>
+              </div>
+            </div>
+
+             <div class="col-md-4">
+              <div class="card">
+                <div class="text">Singapore
+                  <p>Travel dan wisata di Singapore. Kunjungi cagar budaya dan kuliner yang menarik.</p>
+                </div>
+              </div>
+            </div>
+
+             <div class="col-md-4">
+              <div class="card">
+                <div class="text">Bandung
+                  <p>Travel dan wisata di Bandung. Kunjungi cagar budaya dan kuliner yang menarik.</p>
+                </div>
+              </div>
+            </div>
+
+             <div class="col-md-4">
+              <div class="card">
+                <div class="text">Surabaya
+                  <p>Travel dan wisata di Surabaya. Kunjungi cagar budaya dan kuliner yang menarik.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+         </section>
+
+         <section class="closing" id="#call">
+          <h1 href="#call">Your Closing Argument Headline</h1>
+          <p>Suspendisse egestas rhoncus in bibendum. Donec urna neque, euismod sed <br/>justo quis, convallis tincidunt risus. Phasellus fringilla odio vel erat fringilla.</p>
+          <a class="btn-closing" id="#call">CALL TO ACTION</a>
+        </section>
+        </main>
+
+    <!-- LAST PAGES -->
+    <footer>
+      <p>
+        ©
+        <span>Copyright</span>
+        <strong>Travel Agency</strong>
+        <span>All Rights Reserved.</span>
+      </p>
+      <div class="credits">
+        Designed & Created By
+        <a href="https://github.com/sintanggraeni">sintanggraeni</a>
+      </div>
+    </footer>
+  </body>
 </html>
